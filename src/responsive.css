@@ -1,0 +1,38 @@
+@media (max-width: 551px){
+     .cabecalho{
+        flex-direction: column;
+     }
+     .logo h1{
+        font-size: 3rem;
+     }
+
+     .menu{
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    .menu li{
+        padding: 20px;
+        margin: 0;
+    }
+    .menu li:last-child{
+        margin-top: 20px;
+    }
+    
+    .menu li a{
+        font-size: 2rem;
+        padding: 15px 30px;
+    }
+    .menu li a.cadastre-se{
+        
+        font-size: 20px;
+        max-width: 400;
+        padding: 15px 20px;
+    }
+    li a:hover{
+        padding: 5px 20px;
+    }
+}
+
+   
+ 
